@@ -417,13 +417,12 @@ a {
 
 .feature__inner {
     display: flex;
-    align-items: center;
     column-gap: 130px;
 }
 
 /* Feature left */
 .feature__media {
-    width: 48%;
+    width: 44%;
 }
 
 .feature__images {

@@ -4,7 +4,6 @@
 
 :root {
     --header-bg: #10375c;
-    --primary: #2e80ce;
 }
 
 html {
@@ -33,13 +32,13 @@ a {
     height: var(--height);
     padding: 0 20px;
     border-radius: 99px;
-    border: 1px solid --primary;
+    border: 1px solid #2e80ce;
     font-size: 1.6rem;
     font-weight: 400;
     text-align: center;
     line-height: var(--height);
     color: #fff;
-    background-color: var(--primary);
+    background-color: #2e80ce;
 }
 
 .btn:hover {
@@ -52,7 +51,7 @@ a {
     font-size: 5rem;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--header-bg);
+    color: #10375c;
 }
 
 .section-desc {
@@ -92,7 +91,7 @@ a {
 .logo__circle::before {
     width: 3em;
     height: 3em;
-    background-color: var(--primary);
+    background-color: #2e80ce;
 }
 
 .logo__circle::after {
@@ -265,7 +264,6 @@ a {
 
 .service__row {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     margin-top: 70px;
 }
@@ -281,58 +279,22 @@ a {
 }
 
 .service__list {
-    margin-bottom: 55px;
 }
 
-/* Service item */
 .service-item {
-    display: flex;
-    width: 470px;
-    padding: 22px;
-    border-radius: 10px;
-    background-color: #fff;
-    transition: 0.25s;
 }
 
-.service-item:hover {
-    position: relative;
-    box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.05);
-}
-
-.service-item:hover .service-item__icon {
-    background-color: var(--primary);
-    color: #fff;
+.service-item__icon-wrap {
 }
 
 .service-item__icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    color: var(--header-bg);
-    background-color: #eff6fd;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
-    transition: 0.25s;
 }
 
 .service-item__body {
-    margin-left: 20px;
 }
 
 .service-item__heading {
-    font-weight: 600;
-    font-size: 1.8rem;
-    line-height: 1.27;
-    color: var(--header-bg);
 }
 
 .service-item__desc {
-    margin-top: 8px;
-    font-weight: 300;
-    font-size: 1.6rem;
-    line-height: 1.75;
-    color: #575f66;
 }

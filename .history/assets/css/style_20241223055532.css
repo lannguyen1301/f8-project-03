@@ -373,12 +373,6 @@ a {
     border-radius: 4px;
 }
 
-.work-item:hover {
-    transform: translateY(-16px);
-    transition: 0.25s;
-    border-color: var(--primary);
-}
-
 .work-item__icon {
 }
 

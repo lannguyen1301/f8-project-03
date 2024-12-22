@@ -374,8 +374,6 @@ a {
 }
 
 .work-item:hover {
-    transform: translateY(-16px);
-    transition: 0.25s;
     border-color: var(--primary);
 }
 

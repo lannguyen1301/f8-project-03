@@ -5,7 +5,6 @@
 :root {
     --header-bg: #10375c;
     --primary: #2e80ce;
-    --secondary: #575f66;
 }
 
 html {
@@ -62,7 +61,7 @@ a {
     font-size: 1.8rem;
     line-height: 1.67;
     text-align: center;
-    color: var(--secondary);
+    color: #575f66;
 }
 /* Header */
 .header {
@@ -335,7 +334,7 @@ a {
     font-weight: 300;
     font-size: 1.6rem;
     line-height: 1.75;
-    color: var(--secondary);
+    color: #575f66;
 }
 
 /* How it works */
@@ -368,15 +367,7 @@ a {
 }
 
 .work-item {
-    padding: 44px;
-    border: 16px solid #eaf6ff;
-    border-radius: 4px;
-}
-
-.work-item:hover {
-    transform: translateY(-16px);
-    transition: 0.25s;
-    border-color: var(--primary);
+    /* border: 10px solid #2e80ce; */
 }
 
 .work-item__icon {
@@ -391,17 +382,7 @@ a {
 }
 
 .work-item__desc {
-    margin-top: 28px;
-    font-weight: 300;
-    font-size: 1.6rem;
-    line-height: 1.75;
-    color: var(--secondary);
 }
 
-.work-item__more {
-    display: inline-block;
-    margin-top: 18px;
-    font-size: 1.6rem;
-    line-height: 1.75;
-    color: var(--primary);
+.work__more {
 }

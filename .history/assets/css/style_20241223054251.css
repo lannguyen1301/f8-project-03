@@ -368,15 +368,7 @@ a {
 }
 
 .work-item {
-    padding: 44px;
-    border: 16px solid #eaf6ff;
-    border-radius: 4px;
-}
-
-.work-item:hover {
-    transform: translateY(-16px);
-    transition: 0.25s;
-    border-color: var(--primary);
+    border: 16px solid --primary;
 }
 
 .work-item__icon {
@@ -398,10 +390,5 @@ a {
     color: var(--secondary);
 }
 
-.work-item__more {
-    display: inline-block;
-    margin-top: 18px;
-    font-size: 1.6rem;
-    line-height: 1.75;
-    color: var(--primary);
+.work__more {
 }

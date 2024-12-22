@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --header-bg: #10375c;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Sora", sans-serif;
+}
+
+/* Common */
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px); /*  canh lề trái 24px lề phải 24px  */
+    margin: 0 auto;
+}
+/* Header */
+.header {
+    min-height: 100vh;
+    background-color: var(--header-bg);
+}
+
+.container {
+}

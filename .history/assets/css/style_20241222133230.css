@@ -160,7 +160,6 @@ a {
 /* Hero */
 .hero {
     display: flex;
-    align-items: center;
     margin-top: 76px;
 }
 
@@ -194,10 +193,6 @@ a {
 .btn {
 }
 
-.hero__media {
-    flex-grow: 1;
-}
-
 .hero__phone {
     margin-left: 38px;
     font-size: 1.8rem;
@@ -217,11 +212,6 @@ a {
     height: 540px;
     border-radius: 6px;
     object-fit: cover;
-}
-
-.hero__img:first-child {
-    position: relative;
-    margin-right: -6px;
 }
 
 .hero__img:last-child {

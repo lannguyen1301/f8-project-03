@@ -160,7 +160,6 @@ a {
 /* Hero */
 .hero {
     display: flex;
-    align-items: center;
     margin-top: 76px;
 }
 
@@ -187,44 +186,17 @@ a {
 
 .hero__row {
     margin-top: 38px;
-    display: flex;
-    align-items: center;
 }
 
 .btn {
 }
 
-.hero__media {
-    flex-grow: 1;
-}
-
 .hero__phone {
-    margin-left: 38px;
-    font-size: 1.8rem;
-    text-align: center;
-    line-height: 1.67;
-    color: #fff;
 }
 
 .hero__images {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    flex-grow: 1;
 }
 
 .hero__img {
-    width: 330px;
-    height: 540px;
-    border-radius: 6px;
-    object-fit: cover;
-}
-
-.hero__img:first-child {
-    position: relative;
-    margin-right: -6px;
-}
-
-.hero__img:last-child {
-    width: 210px;
-    height: 410px;
 }

@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --header-bg: #10375c;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Sora", sans-serif;
+}
+
+/* Common */
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px); /*  canh lề trái 24px lề phải 24px  */
+    margin: 0 auto;
+}
+/* Header */
+.header {
+    min-height: 100vh;
+    background-color: var(--header-bg);
+}
+
+.logo {
+    position: relative;
+    font-size: 1rem;
+}
+
+.logo__circle::before,
+.logo__circle::after {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.logo__circle::before {
+    width: 3em;
+    height: 3em;
+    background-color: #2e80ce;
+}
+
+.logo__circle::after {
+    position: absolute;
+    width: 1.6em;
+    height: 1.6em;
+    background-color: #fff;
+}
+.logo__text {
+}
+
+.logo_brand {
+}

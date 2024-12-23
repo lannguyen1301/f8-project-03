@@ -517,13 +517,12 @@ a {
 
 /* Install */
 .install {
-    margin-top: 180px;
+    margin-top: 85px;
 }
 
 .install__inner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 0 70px;
     background-color: var(--primary);
 }
@@ -537,25 +536,16 @@ a {
 }
 
 .install__content {
-    max-width: 586px;
+    width: 50%;
 }
 
-.install__heading,
-.install__desc {
-    color: #fff;
+.section-heading {
 }
 
-.install__heading {
-    max-width: 489px;
-}
-
-.install__desc {
+.section-desc {
 }
 
 .install__row {
-    display: flex;
-    column-gap: 28px;
-    margin-top: 38px;
 }
 
 .install__btn {

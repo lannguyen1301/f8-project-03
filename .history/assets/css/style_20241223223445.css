@@ -517,7 +517,7 @@ a {
 
 /* Install */
 .install {
-    margin-top: 180px;
+    margin-top: 85px;
 }
 
 .install__inner {
@@ -559,6 +559,10 @@ a {
 }
 
 .install__btn {
+    padding: 0;
+    outline: none;
+    border: none;
+    background-color: transparent;
 }
 
 .install__btn-img {

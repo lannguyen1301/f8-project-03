@@ -517,7 +517,7 @@ a {
 
 /* Install */
 .install {
-    margin-top: 180px;
+    margin-top: 85px;
 }
 
 .install__inner {
@@ -537,7 +537,7 @@ a {
 }
 
 .install__content {
-    max-width: 586px;
+    width: 50%;
 }
 
 .install__heading,
@@ -545,17 +545,10 @@ a {
     color: #fff;
 }
 
-.install__heading {
-    max-width: 489px;
-}
-
 .install__desc {
 }
 
 .install__row {
-    display: flex;
-    column-gap: 28px;
-    margin-top: 38px;
 }
 
 .install__btn {

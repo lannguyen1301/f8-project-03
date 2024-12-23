@@ -517,7 +517,7 @@ a {
 
 /* Install */
 .install {
-    margin-top: 180px;
+    margin-top: 85px;
 }
 
 .install__inner {
@@ -553,12 +553,13 @@ a {
 }
 
 .install__row {
-    display: flex;
-    column-gap: 28px;
     margin-top: 38px;
 }
 
 .install__btn {
+    outline: none;
+    border: none;
+    background-color: transparent;
 }
 
 .install__btn-img {

@@ -714,7 +714,7 @@ button {
 
 /* Footer */
 .footer {
-    padding-top: 100px;
+    padding: 100px 0;
     background-color: var(--header-bg);
     font-family: "Open Sans", sans-serif;
 }
@@ -798,7 +798,6 @@ button {
     outline: none;
     border: 1px solid #406181;
     border-radius: 4px;
-    color: #fff;
     background-color: transparent;
 }
 
@@ -817,14 +816,10 @@ button {
 }
 
 .footer__copyright {
-    padding: 28px 0 42px;
     border-top: 1px solid #406181;
 }
 
 .footer__copyright-desc {
-    font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 1.86;
+    margin-top: 28px;
     text-align: center;
-    color: #aab3ba;
 }

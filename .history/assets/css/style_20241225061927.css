@@ -21,15 +21,6 @@ body {
 a {
     text-decoration: none;
 }
-
-input,
-textarea,
-select,
-button {
-    font-family: inherit;
-    font-size: inherit;
-}
-
 .container {
     width: 1170px;
     max-width: calc(100% - 48px); /*  canh lề trái 24px lề phải 24px  */
@@ -424,6 +415,9 @@ button {
     padding: 85px 0;
 }
 
+.container {
+}
+
 .feature__inner {
     display: flex;
     align-items: center;
@@ -558,10 +552,19 @@ button {
     max-width: 489px;
 }
 
+.install__desc {
+}
+
 .install__row {
     display: flex;
     column-gap: 28px;
     margin-top: 38px;
+}
+
+.install__btn {
+}
+
+.install__btn-img {
 }
 
 /* News */
@@ -714,15 +717,21 @@ button {
 
 /* Footer */
 .footer {
-    padding-top: 100px;
+    padding: 100px 0;
     background-color: var(--header-bg);
     font-family: "Open Sans", sans-serif;
+}
+
+.section__footer {
 }
 
 .footer__row {
     display: grid;
     grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
     column-gap: 78px;
+}
+
+.footer__column {
 }
 
 .footer__heading,
@@ -798,7 +807,6 @@ button {
     outline: none;
     border: 1px solid #406181;
     border-radius: 4px;
-    color: #fff;
     background-color: transparent;
 }
 
@@ -813,18 +821,5 @@ button {
     --height: 46px;
     min-width: 108px;
     border-radius: 4px;
-    font-size: 1.4rem;
-}
-
-.footer__copyright {
-    padding: 28px 0 42px;
-    border-top: 1px solid #406181;
-}
-
-.footer__copyright-desc {
-    font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 1.86;
-    text-align: center;
-    color: #aab3ba;
+    font-size: 1.6rem;
 }

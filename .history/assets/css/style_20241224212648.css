@@ -685,22 +685,19 @@ a {
 }
 
 .appointment__inner {
-    padding: 100px 70px;
-    border-radius: 4px;
+    padding: 100px 178px;
     background-color: #f7fbff;
     text-align: center;
 }
 
 .appointment__heading {
     position: relative;
-    padding: 20px;
 }
 
 .appointment__heading::after {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
     margin: 0 auto;
     display: block;
     content: "";
@@ -710,7 +707,4 @@ a {
 }
 
 .appointment__desc {
-    max-width: 617px;
-    margin: 18px auto 38px;
-    font-size: 1.6rem;
 }
